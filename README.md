@@ -1,5 +1,5 @@
 # Tokyo Olympics Azure Project
-This personal project represents my first exploratory experience, providing me with a general and holistic understanding of how a data pipeline functions within Azure. It gave me valuable insights into how data engineering flows work, how data is processed, and how different components interact within the Azure ecosystem from data collection and transformation to storage and analysis.
+This personal project represents my first exploratory experience, providing me with a general and holistic understanding of how a data pipeline functions within Azure.<br> It gave me valuable insights into how data engineering flows work, how data is processed, and how different components interact within the Azure ecosystem from data collection and transformation to storage and analysis.
 
 
 
