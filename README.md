@@ -12,7 +12,7 @@ This personal project represents my first exploratory experience, providing me w
 
 ## Azure Services Used
 
-- **Azure Data Factory**: For data pipeline creation and ETL operations.
+- **Azure Data Factory** for data pipeline creation and ETL operations.
 - **Azure Data Lake Gen 2** for secure data management
 - **Azure Databricks** for Transformation.
 - **Azure Storage Account** for reliable storage.
@@ -26,9 +26,9 @@ This personal project represents my first exploratory experience, providing me w
 
 ## Flow Overview
 
-1. **Data Source**: HTTP link.
+1. **Source Extraction**: HTTP link.
 2. **Ingestion**: Using Data Factory to extract and load data into the data lake storage.
-3. **Data lake**: Storing raw data in Azure Data Lake.
+3. **Data Storage**: Storing raw data in Azure Data Lake.
 4. **Transformation**: Using Apache Spark in Azure Databricks.
 6. **Analytical Storage**: Loading transformed data into Azure Synapse Analytics.
 7. **Business Intelligence**: Using Synapse Analytics for data querying and reporting.
@@ -53,7 +53,6 @@ This personal project represents my first exploratory experience, providing me w
 
 ![](img/Screenshot(34).png)
 
-
 ### 3. Databricks
 - Create Azure Databricks service with a single-node compute cluster.
 - **Connection Setup**:
@@ -69,12 +68,10 @@ This personal project represents my first exploratory experience, providing me w
 - **Data Transformation**:
   - Use Spark to read the data from `/mnt/tokyoolympic`.
   
-    - Set `option("header","true")`to include column names.
-    - `option("inferSchema","true")`for automatic schema detection.
+    - for reading set `option("header","true")`to include column names.
+    - and `option("inferSchema","true")`for automatic schema detection.
 
   - Check for required Adjustments in data types and basic Cleaning.
-
-![](img/Screenshot(033).png)
 
 ### 4. Synapse Analytics
 - In the same resource group create Synapse Workspace
