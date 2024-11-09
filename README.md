@@ -22,7 +22,7 @@ This personal project represents my first exploratory experience, providing me w
 
 ## Architecture Diagram
 
-[](img/pipeline.png)
+![](img/pipeline.png)
 
 ## Flow Overview
 
@@ -51,7 +51,7 @@ This personal project represents my first exploratory experience, providing me w
   - **Sink**: Azure Data Lake Storage Gen 2 (CSV format).
 
 
-[](img/Screenshot (34).png)
+![](img/Screenshot (34).png)
 
 
 ### 3. Databricks
@@ -74,7 +74,7 @@ This personal project represents my first exploratory experience, providing me w
 
   - Check for required Adjustments in data types and basic Cleaning.
 
-[](img/Screenshot (033).png)
+![](img/Screenshot (033).png)
 
 ### 4. Synapse Analytics
 - In the same resource group create Synapse Workspace
@@ -87,6 +87,6 @@ This personal project represents my first exploratory experience, providing me w
 - Visualize results to present into comprehensible format used in making data-driven decisions.
 
 
- [](img/Screenshot (36).png)
+ ![](img/Screenshot (36).png)
 
 
